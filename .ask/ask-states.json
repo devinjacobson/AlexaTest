@@ -1,0 +1,52 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-east-1:943119288209:function:ask-sample-fact-default-default-1612887108377",
+                "lastModified": "2021-02-09T16:22:24.967+0000",
+                "revisionId": "335c2b70-261e-4008-a0c4-b6267f4dfc00"
+              },
+              "iamRole": "arn:aws:iam::943119288209:role/ask-lambda-sample-fact-1612887100521"
+            },
+            "EU": {
+              "lambda": {
+                "arn": "arn:aws:lambda:eu-west-1:943119288209:function:ask-sample-fact-default-EU-1612887117940",
+                "lastModified": "2021-02-09T16:22:26.158+0000",
+                "revisionId": "89401f4a-34cb-4879-975e-b5981365a979"
+              },
+              "iamRole": "arn:aws:iam::943119288209:role/ask-lambda-sample-fact-1612887100496"
+            },
+            "FE": {
+              "lambda": {
+                "arn": "arn:aws:lambda:us-west-2:943119288209:function:ask-sample-fact-default-FE-1612887110665",
+                "lastModified": "2021-02-09T16:22:26.704+0000",
+                "revisionId": "e323830d-ea31-42a1-b98a-bd482159b3ed"
+              },
+              "iamRole": "arn:aws:iam::943119288209:role/ask-lambda-sample-fact-1612887100512"
+            }
+          }
+        }
+      },
+      "skillId": "amzn1.ask.skill.da288430-fde9-46cf-ad52-a07e7dc39889",
+      "skillMetadata": {
+        "lastDeployHash": "lEL3IT5LvKLocKphqQL9hZfC0lQ="
+      },
+      "code": {
+        "default": {
+          "lastDeployHash": "2X306twvhC/2nA8fbOd5sAmP5DA="
+        },
+        "FE": {
+          "lastDeployHash": "2X306twvhC/2nA8fbOd5sAmP5DA="
+        },
+        "EU": {
+          "lastDeployHash": "2X306twvhC/2nA8fbOd5sAmP5DA="
+        }
+      }
+    }
+  }
+}
